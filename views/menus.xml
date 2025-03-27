@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <menuitem id="menu_root" name="Manage customers and insurance" sequence="1"/>
+    
+
+    <menuitem id="menu_insurance_root" name="Manage insurances" parent="menu_root" sequence="10"/>
+</odoo>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <!-- Vue Formulaire pour les Assurances -->
+    <record id="insurance_view_form" model="ir.ui.view">
+        <field name="name">insurance.form</field>
+        <field name="model">insurance</field>
+        <field name="arch" type="xml">
+            <form string="Assurance">
+                <sheet>
+                    <group>
+                        <field name="name"/>
+                        <field name="montant"/>
+                        <field name="start_date"/>
+                        <field name="end_date"/>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <!-- Vue Liste pour les Assurances -->
+    <record id="insurance_view_tree" model="ir.ui.view">
+        <field name="name">insurance.tree</field>
+        <field name="model">insurance</field>
+        <field name="arch" type="xml">
+            <tree string="Insurance">
+                <field name="name"/>
+                <field name="montant"/>
+                <field name="start_date"/>
+                <field name="end_date"/>
+            </tree>
+        </field>
+    </record>
+
+    <!-- Vue de Recherche pour les Assurances -->
+    <record id="insurance_view_search" model="ir.ui.view">
+        <field name="name">insurance.search</field>
+        <field name="model">insurance</field>
+        <field name="arch" type="xml">
+            <search string="Search">
+                <field name="name"/>
+            </search>
+        </field>
+    </record>
+
+    <!-- Action pour ouvrir la vue des Assurances -->
+    <record model="ir.actions.act_window" id="act_insurance_view">
+        <field name="name">Insurance</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">insurance</field>
+        <field name="view_mode">tree,form</field>
+        <field name="search_view_id" ref="insurance_view_search"/>
+    </record>
+
+    <record model="ir.actions.act_window.view" id="act_insurance_view_form">
+        <field name="act_window_id" ref="act_insurance_view"/>
+        <field name="sequence" eval="20"/>
+        <field name="view_mode">form</field>
+        <field name="view_id" ref="insurance_view_form"/>
+    </record>
+
+    <record model="ir.actions.act_window.view" id="act_insurance_view_tree">
+        <field name="act_window_id" ref="act_insurance_view"/>
+        <field name="sequence" eval="10"/>
+        <field name="view_mode">tree</field>
+        <field name="view_id" ref="insurance_view_tree"/>
+    </record>
+
+    <!-- Menu pour les Assurances -->
+    <menuitem id="menu_insurance_view" 
+            name="Insurance" parent="menu_insurance_root" 
+            action="act_insurance_view" 
+            sequence="5"/>
+</odoo>
