@@ -1,0 +1,142 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* manage_insurance
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 17.0-20250320\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-03-27 17:03+0000\n"
+"PO-Revision-Date: 2025-03-27 17:03+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: manage_insurance
+#: model:ir.model.fields,field_description:manage_insurance.field_insurance_subscription__name
+msgid " Name"
+msgstr "Nom"
+
+#. module: manage_insurance
+#: model:ir.model.fields,field_description:manage_insurance.field_insurance__montant
+#: model:ir.model.fields,field_description:manage_insurance.field_insurance_subscription__amount
+msgid "Amount"
+msgstr "Montant"
+
+#. module: manage_insurance
+#: model_terms:ir.ui.view,arch_db:manage_insurance.insurance_view_form
+msgid "Assurance"
+msgstr ""
+
+#. module: manage_insurance
+#: model:ir.model.fields,field_description:manage_insurance.field_insurance__create_uid
+#: model:ir.model.fields,field_description:manage_insurance.field_insurance_subscription__create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: manage_insurance
+#: model:ir.model.fields,field_description:manage_insurance.field_insurance__create_date
+#: model:ir.model.fields,field_description:manage_insurance.field_insurance_subscription__create_date
+msgid "Created on"
+msgstr ""
+
+#. module: manage_insurance
+#: model:ir.model.fields,field_description:manage_insurance.field_insurance_subscription__custumer_id
+msgid "Customer"
+msgstr "Client"
+
+#. module: manage_insurance
+#: model:ir.ui.menu,name:manage_insurance.menu_customers
+msgid "Customers"
+msgstr "Clients"
+
+#. module: manage_insurance
+#: model:ir.model.fields,field_description:manage_insurance.field_insurance__display_name
+#: model:ir.model.fields,field_description:manage_insurance.field_insurance_subscription__display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: manage_insurance
+#: model:ir.model.fields,field_description:manage_insurance.field_insurance_subscription__end_date
+msgid "End Date"
+msgstr "Date de début"
+
+#. module: manage_insurance
+#: model:ir.model.fields,field_description:manage_insurance.field_insurance__end_date
+msgid "End date"
+msgstr "Date de fin"
+
+#. module: manage_insurance
+#: model:ir.model.fields,field_description:manage_insurance.field_insurance__id
+#: model:ir.model.fields,field_description:manage_insurance.field_insurance_subscription__id
+msgid "ID"
+msgstr ""
+
+#. module: manage_insurance
+#: model:ir.actions.act_window,name:manage_insurance.act_insurance_view
+#: model:ir.model.fields,field_description:manage_insurance.field_insurance_subscription__insurance_id
+#: model:ir.ui.menu,name:manage_insurance.menu_insurance_view
+#: model_terms:ir.ui.view,arch_db:manage_insurance.insurance_view_tree
+msgid "Insurance"
+msgstr "Assurance"
+
+#. module: manage_insurance
+#: model:ir.model,name:manage_insurance.model_insurance_subscription
+msgid "Insurance Subscription"
+msgstr "Subscription"
+
+#. module: manage_insurance
+#: model:ir.model.fields,field_description:manage_insurance.field_insurance__write_uid
+#: model:ir.model.fields,field_description:manage_insurance.field_insurance_subscription__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: manage_insurance
+#: model:ir.model.fields,field_description:manage_insurance.field_insurance__write_date
+#: model:ir.model.fields,field_description:manage_insurance.field_insurance_subscription__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: manage_insurance
+#: model:ir.ui.menu,name:manage_insurance.menu_root
+msgid "Manage customers and insurance"
+msgstr "Gestion des Clients et Assurance"
+
+#. module: manage_insurance
+#: model:ir.model,name:manage_insurance.model_insurance
+msgid "Manage insurance"
+msgstr "Gestion d'assurance"
+
+#. module: manage_insurance
+#: model:ir.ui.menu,name:manage_insurance.menu_insurance_root
+msgid "Manage insurances"
+msgstr "Gestion des assurances"
+
+#. module: manage_insurance
+#: model_terms:ir.ui.view,arch_db:manage_insurance.insurance_view_search
+msgid "Search"
+msgstr "Recherche"
+
+#. module: manage_insurance
+#: model:ir.model.fields,field_description:manage_insurance.field_insurance_subscription__start_date
+msgid "Start Date"
+msgstr "Date de début"
+
+#. module: manage_insurance
+#: model:ir.model.fields,field_description:manage_insurance.field_insurance__start_date
+msgid "Start date"
+msgstr "Date de fin"
+
+#. module: manage_insurance
+#: model:ir.actions.act_window,name:manage_insurance.act_subscription_view
+#: model:ir.ui.menu,name:manage_insurance.menu_subscription
+msgid "Subscriptions"
+msgstr "Subscriptions"
+
+#. module: manage_insurance
+#: model:ir.model.fields,field_description:manage_insurance.field_insurance__name
+msgid "name"
+msgstr "Nom"
